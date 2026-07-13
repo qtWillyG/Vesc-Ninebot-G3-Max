@@ -1,4 +1,4 @@
-## Vesc Ninebot G3 Max
+# Vesc Ninebot G3 Max
 <p align="center">
   <strong>Open controller integration for the Segway Ninebot MAX G3.</strong><br>
   Preserve the factory dashboard, decode the vehicle protocol, and bridge it to VESC — safely.
