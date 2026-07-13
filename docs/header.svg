@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">MAX G3 VESC Bridge</title>
+  <desc id="desc">Dark technical banner showing a scooter connected through an ESP32 bridge to a VESC controller.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b1827"/>
+      <stop offset="1" stop-color="#111027"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="scooter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8bd7ef" stroke-opacity=".075" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#67e8f9" fill-opacity=".13"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="500" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="500" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1145" cy="175" rx="250" ry="190" fill="#7c3aed" fill-opacity=".14" filter="url(#soft)"/>
+  <ellipse cx="665" cy="470" rx="390" ry="95" fill="#0ea5e9" fill-opacity=".12" filter="url(#soft)"/>
+  <path d="M0 410 C260 350 390 475 650 405 S1110 330 1400 400 V500 H0Z" fill="#07101c" fill-opacity=".78"/>
+
+  <g transform="translate(70 68)">
+    <rect x="0" y="0" width="104" height="30" rx="15" fill="#102b3b" stroke="#38bdf8" stroke-opacity=".6"/>
+    <circle cx="18" cy="15" r="5" fill="#2dd4bf" filter="url(#glow)"/>
+    <text x="33" y="20" fill="#bae6fd" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">DISCOVERY</text>
+
+    <text x="0" y="115" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2">MAX G3</text>
+    <text x="0" y="176" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.5">VESC BRIDGE</text>
+    <rect x="2" y="200" width="560" height="3" rx="1.5" fill="url(#accent)" opacity=".9"/>
+    <text x="0" y="244" fill="#a9bfd1" font-family="Segoe UI, Arial, sans-serif" font-size="21" letter-spacing=".4">DASHBOARD PROTOCOL · ESP32 · LISPBM</text>
+    <text x="0" y="282" fill="#6f8ca3" font-family="Segoe UI, Arial, sans-serif" font-size="16">Safe-by-default controller integration for the Ninebot MAX G3</text>
+
+    <g transform="translate(0 320)">
+      <rect width="214" height="43" rx="11" fill="#0d2130" stroke="#2dd4bf" stroke-opacity=".45"/>
+      <path d="M20 22l7 7 14-16" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="54" y="27" fill="#d1fae5" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">MOTOR OUTPUT LOCKED</text>
+    </g>
+  </g>
+
+  <g transform="translate(760 46)">
+    <path d="M335 28h52l-18 28h-43z" fill="#111f32" stroke="#67e8f9" stroke-width="4"/>
+    <path d="M350 54l-17 215" fill="none" stroke="url(#scooter)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M333 269l-71 75h-146" fill="none" stroke="url(#scooter)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M115 344h178" stroke="#b9e6f4" stroke-opacity=".48" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="92" cy="352" r="49" fill="#091421" stroke="#67e8f9" stroke-width="8"/>
+    <circle cx="92" cy="352" r="22" fill="#132b3e" stroke="#a5f3fc" stroke-opacity=".55" stroke-width="3"/>
+    <circle cx="328" cy="352" r="49" fill="#091421" stroke="#a78bfa" stroke-width="8"/>
+    <circle cx="328" cy="352" r="22" fill="#241a3a" stroke="#ddd6fe" stroke-opacity=".55" stroke-width="3"/>
+    <path d="M333 104h64" stroke="#9ce8f5" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="324" cy="269" r="9" fill="#2dd4bf" filter="url(#glow)"/>
+    <circle cx="359" cy="53" r="7" fill="#38bdf8" filter="url(#glow)"/>
+
+    <g transform="translate(430 134)">
+      <path d="M-63 44 C-20 44 -24 19 8 19" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-dasharray="7 8"/>
+      <circle cx="-63" cy="44" r="5" fill="#2dd4bf"/>
+      <rect width="142" height="92" rx="15" fill="#0c2030" stroke="#2dd4bf" stroke-width="2"/>
+      <rect x="17" y="18" width="108" height="42" rx="7" fill="#102f38" stroke="#5eead4" stroke-opacity=".55"/>
+      <path d="M31 73h19m9 0h19m9 0h19" stroke="#67e8f9" stroke-width="4" stroke-linecap="round"/>
+      <text x="71" y="46" text-anchor="middle" fill="#ccfbf1" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">ESP32</text>
+      <text x="71" y="112" text-anchor="middle" fill="#77a4b8" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="1">SAFE BRIDGE</text>
+    </g>
+
+    <g transform="translate(462 296)">
+      <path d="M41-54v31" stroke="#a78bfa" stroke-width="3" stroke-dasharray="7 8"/>
+      <circle cx="41" cy="-23" r="5" fill="#a78bfa"/>
+      <rect width="164" height="102" rx="17" fill="#19142b" stroke="#a78bfa" stroke-width="2"/>
+      <path d="M22 27h120M22 51h120M22 75h78" stroke="#8b7cb5" stroke-opacity=".45" stroke-width="3"/>
+      <circle cx="126" cy="75" r="8" fill="#22c55e" filter="url(#glow)"/>
+      <text x="82" y="48" text-anchor="middle" fill="#ede9fe" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">VESC</text>
+      <text x="82" y="124" text-anchor="middle" fill="#8e81ae" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="1">LISPBM ENDPOINT</text>
+    </g>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1397" height="497" rx="26.5" fill="none" stroke="url(#accent)" stroke-opacity=".28" stroke-width="3"/>
+</svg>
